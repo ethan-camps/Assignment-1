@@ -1,0 +1,296 @@
+*{
+			box-sizing: border-box;
+		}
+
+		html, body{
+			margin: 0;
+			padding: 0;
+			height: 100%;
+		}
+		h2{
+				color:#fcfcfc;
+				font-size: 200%;
+				margin-top: -30%;
+				text-decoration: underline;
+		}
+
+		h3{
+			color:#fcfcfc;
+		}
+
+		h4{
+			color:#fcfcfc;
+			font-size: 200%;
+			text-decoration: underline;
+		}
+
+		#intro_in{
+			color: #ffe28a;
+			margin-top: 20%;
+			font-size: 50%;
+		}
+		
+
+		.container{
+			margin: 0;
+			padding: 0;
+			height: 100%;
+		}
+
+		#intro{
+			width: 100%;
+			z-index: 1000000000;
+			height: 100%;
+			background-color: #fb2e01;
+			position: fixed;
+			opacity: 1.0;
+			text-align: center;
+			padding-top: 25%;
+			font-size: 700%;
+			background-image: url("intro_img.png");
+			background-position: 0px;
+		}
+
+		.grid{
+			z-index: 1;
+			display: flex;
+			flex-wrap: wrap;
+			height: 100%;
+			width:100%;
+		}
+
+		.box{
+			width:25%;
+			height: 100%;
+			border:0px solid white;
+		}
+
+		#nav_about{
+			width: 50%;
+		}
+
+		#nav_design{
+			width: 50%;
+		}
+
+		#nav_lh{
+			width: 30%;
+		}
+
+		#nav_contact{
+			width: 50%;
+		}
+
+
+/*-------------------ABOUT SECTION BEGIN-------------------*/
+
+		#box1{
+			background-color: #ffe28a;
+			text-align: center;
+			padding-top: 20%;
+			font-family: 'Lora', serif;
+			font-weight: bold;
+		}
+
+		#profile_pic{
+			width: 100%;
+		}
+
+		.vid_info{
+			font-family: 'Lora', serif;
+			font-weight: thin;
+			font-size: 125%;
+			text-align: left;
+		}
+
+		#hidden_about{
+			width: 50%;
+			padding: 2%;
+			overflow: auto;
+    		position: absolute;
+   		 	bottom:0;
+   		 	left:0;
+    		right:0;
+    		top:0;
+    		text-align: center;
+    		padding-left: 5%;
+		} 
+
+
+/*-------------------ABOUT SECTION END-------------------*/
+
+
+/*-------------------DESIGN SECTION BEGIN------------------*/
+
+		#box2{
+			background-color: #fb2e01;
+			text-align: center;
+			padding-top: 20%;
+			font-family: 'Lora', serif;
+			font-weight: bold;	
+		}
+
+		#frame{
+			width: 90%;
+			padding: 5%;
+			background-image: url(p_1.jpg);
+		}
+
+		#hidden_deisgn{
+			width: 50%;
+			padding: 2%;
+			overflow: auto;
+    		position: absolute;
+   		 	bottom:0;
+   		 	left:0;
+    		right:0;
+    		text-align: center;
+    		padding-left: 5%;
+		} 
+
+/*-------------------DESIGN SECTION END-----------------*/
+
+
+/*-------------------LOVE HATE SCTION BEGIN------------*/
+
+
+		#box3{
+			background-color: #6fcb9f;
+			text-align: center;
+			padding-top: 20%;
+			font-family: 'Lora', serif;
+			font-weight: bold;
+		}
+
+
+		#hidden_lh{
+			width: 50%;
+			padding: 2%;
+			overflow: auto;
+    		position: absolute;
+    		text-align: center;
+    		padding-left: 5%;
+    		bottom:0;
+   		 	left:30%;
+    		right:0;
+    		top:0;
+		} 
+
+		#like{
+			width: 70%;
+			float: left;
+			text-align: left;
+			text-decoration: none;
+			font-size: 150%;
+			font-family: 'Lora', serif;
+
+		}
+
+		#dislike{
+			width: 70%;
+			float: left;
+			text-align: left;
+			text-decoration: none;
+			font-size: 150%;
+			font-family: 'Lora', serif;
+		}
+
+
+
+		
+/*-------------------LOVE HATE SCTION END------------*/
+
+/*-------------------CONTACT SECTION BEGIN------------*/
+	
+#box4{
+			background-color: #666547;
+			font-family: 'Lora', serif;
+			font-weight: bold;	
+			text-align: center;
+			padding-top: 20%;
+		}
+
+		#form{
+			text-align: left;
+			color: #fcfcfc;
+			margin-left: 10%;
+		}
+
+
+
+
+		#hidden_contact{
+			width: 100%;
+			overflow: auto;
+    		position: absolute;
+    		text-align: center;
+    		padding-left: 5%;
+    		bottom:0;
+   		 	left:30%;
+    		right:0;
+    		top:0;
+    		text-align: left;
+    		padding-bottom: 5%;
+    	
+
+		} 
+
+		h5{
+			color:#fcfcfc;
+			font-size: 200%;
+			
+			text-decoration: underline;
+			margin-left: 10%;
+		}
+		h6{
+			color:#fcfcfc;
+			font-size: 150%;
+				margin-left: 10%;
+			
+		}
+
+
+		input.name_email[type=text] {
+    width: 50%;
+    padding: 12px 40px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #666547;
+     color: #fcfcfc;
+     outline: none;
+     font-size: 100%;
+}
+
+	input.comment[type=text] {
+    width: 50%;
+    padding: 50px 40px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #666547;
+    color: #fcfcfc;
+    outline: none;
+    font-size: 100%;
+
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #fb2e01;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Bungee Hairline';
+    outline: none;
+    font-size: 100%;
+}
+
+
+
+		
+			
